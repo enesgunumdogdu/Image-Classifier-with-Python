@@ -19,7 +19,7 @@ To use the program follow these steps:
 Thats it.
 
 
-If you have any further questions please don't hesitate to contact me via my mail adress:
+If you have any further questions please don't hesitate to contact me via my email adress:
 enesgunumdogdu0@gmail.com
 
 I hope you enjoy.
