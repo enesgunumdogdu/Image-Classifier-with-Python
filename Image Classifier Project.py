@@ -2,8 +2,7 @@
 """
 
 @author: A.Enes Günümdoğdu
-enesgunumdogdu0@gmail.com
-
+me@enesgunumdogdu.com.tr
 """
 
 import cv2
