@@ -92,35 +92,27 @@ top=tk.Tk()
 top.geometry('800x600')
 top.title('Image Classifier Project With Cifar10 Dataset')
 top.configure(background='#e92929')
-label=Label(top,background='#CDCDCD', font=('arial',15,'bold'))
+label=Label(top,background='#FFFFFF', font=('arial',15,'bold'))
 sign_image = Label(top)
 
 ## FRAMES
 #------
 #♣Creating Left Frame
-frame_sol = Frame(top, bg='#5a5a5a')
+frame_sol = Frame(top, bg='#FFFFFF')
 frame_sol.place(relx=0, rely=0, relwidth=0.5, relheight=0.05)
 
 #Creating Right Frame 
-frame_sag = Frame(top, bg='#5a5a5a')
+frame_sag = Frame(top, bg='#FFFFFF')
 frame_sag.place(relx=0.5, rely=0, relwidth=0.5, relheight=0.05)
 
 ##Creating Bottom Frame 
-frame_alt = Frame(top, bg='#5a5a5a')
+frame_alt = Frame(top, bg='#FFFFFF')
 frame_alt.place(relx=0, rely=0.95, relwidth=1, relheight=0.05)
 
 ## LABELS
 #------
-#Creating Label 1
-egitim = Label(frame_sol, bg='#5a5a5a', text = "", font ="Verdana 12 bold")
-egitim.pack(padx=10, pady=0)
-
-# Creating Label 2 / 'Test' 
-test = Label(frame_sag, bg='#5a5a5a', text = "", font ="Verdana 12 bold")
-test.pack(padx=10, pady=0)
-
-#Creating Label 3 / 
-projeyi_hazirlayan = Label(frame_alt, bg='#5a5a5a', text = "A.Enes Günümdoğdu-----enesgunumdogdu0@gmail.com",font ="Quicksand 12 bold" )
+#Creating Label 1  
+projeyi_hazirlayan = Label(frame_alt, bg='#FFFFFF', text = "A.Enes Günümdoğdu-----enesgunumdogdu0@gmail.com",font ="Quicksand 12 bold" )
 projeyi_hazirlayan.pack(padx=10, pady=5, side=BOTTOM)
 
 # FUNCTIONS
