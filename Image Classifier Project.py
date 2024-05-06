@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-
 @author: A.Enes Günümdoğdu
 me@enesgunumdogdu.com.tr
 """
@@ -63,7 +62,6 @@ results={
     9:'truck'
   }
 
-import numpy as np
 import matplotlib.pyplot as plt
 from keras.models import load_model
 model = load_model('model1_cifar_10epoch.h5')
@@ -89,7 +87,6 @@ import tkinter as tk
 from tkinter import filedialog
 from tkinter import *
 from PIL import ImageTk, Image
-import numpy
 
 top=tk.Tk()
 top.geometry('800x600')
